@@ -15,6 +15,11 @@ int main() {
 	std::cout << "insert a max for the scan of prime numbers \n(cannot go over 4000000000)\n";
 	while (true) {
 		std::cin >> tries;
+
+		if (!std::cin) {
+			std::cout << "Invalid input.\n";
+			return 1;
+		}
 		if (tries > max) {
 			std::cout << " Nope, try lower than that (I said the max was 4000000000) \n";
 			continue;
@@ -22,10 +27,6 @@ int main() {
 		if (tries < 1) {
 			std::cout << " Neither negatives or zero are allowed buddy\n";
 			continue;
-		}
-		if (!(std::cin >> tries)) {
-		std::cout << "Invalid input.\n";
-		return 1;
 		}
 		break;
 	}
