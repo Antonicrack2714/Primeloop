@@ -55,5 +55,10 @@ int main() {
 
 	std::cout << "Those were all the prime numbers from 1 to " << tries;
 
+	std::cout << "\n\nPress ENTER to exit...";
+	std::cin.ignore();
+	std::cin.get();
+
+	return 0;
 	return 0;
 }
