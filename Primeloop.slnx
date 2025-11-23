@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Primeloop.vcxproj" Id="374bb211-64ed-4f69-b5d2-09cf8ef8d3c4" />
+</Solution>
